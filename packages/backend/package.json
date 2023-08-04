@@ -1,10 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init -y tsc --init npm i typescript ts-node express cors nodemon  npm i @types/cors @types/express @types/node npm i typeorm mysql2 graphql express-graphql",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts",
+    "start": "nodemon ./src/index.ts & ",
     "build": "tsc -p ."
   },
   "keywords": [],
@@ -23,5 +23,6 @@
     "ts-node": "^10.9.1",
     "typeorm": "^0.3.17",
     "typescript": "^5.1.6"
-  }
+  },
+  "devDependencies": {}
 }
