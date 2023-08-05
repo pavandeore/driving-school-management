@@ -1,3 +1,5 @@
-  npm i --legacy-peer-deps
+npm i --legacy-peer-deps
   
-  npm run start -ws 
+npm run start -ws 
+
+npm i -w packages/frontend NAME
